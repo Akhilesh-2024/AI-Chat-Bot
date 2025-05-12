@@ -177,3 +177,23 @@ sendMessage.addEventListener("click", (e) => handleOutgoingMessage(e));
 document.querySelector("#file-upload").addEventListener("click", () => fileInput.click());
 closeChatbot.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
+
+
+// const toggleThemeButton = document.querySelector("#theme-toggle");
+
+// toggleThemeButton.addEventListener("click", () => {
+//   document.body.classList.toggle("dark-mode");
+
+//   // Optional: Save preference in localStorage
+//   const isDark = document.body.classList.contains("dark-mode");
+//   localStorage.setItem("theme", isDark ? "dark" : "light");
+// });
+
+// // Load saved theme on page load
+// window.addEventListener("DOMContentLoaded", () => {
+//   const savedTheme = localStorage.getItem("theme");
+//   if (savedTheme === "dark") {
+//     document.body.classList.add("dark-mode");
+//   }
+// });
